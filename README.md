@@ -6,8 +6,6 @@ Density-aware 1D interpolation models that outperform linear regression on struc
 Slopier is a lightweight, deterministic 1D regression/interpolation module designed for **small, structured datasets**.  
 It focuses on **local geometry**, **neighbor spacing**, and **curve continuity** instead of global fitting.
 
-This repository contains two models:
-- **HorizontalSlope**
 - **SlopePair** (density-aware, gap-skipping interpolation)
 
 ---
@@ -30,20 +28,7 @@ Slopier works best when:
 
 ---
 
-## Models
-
-### 1️⃣ HorizontalSlope
-- Finds left & right neighbors
-- Predicts using **average of their y-values**
-- Produces a **horizontal segment**
-- Extremely stable under noise
-
-Best for:
-- Missing value filling
-- Noisy datasets
-- Flat-trend approximation
-
----
+## Model
 
 ### 2️⃣ SlopePair (Main Model)
 - Finds surrounding neighbors
