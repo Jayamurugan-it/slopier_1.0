@@ -1,7 +1,7 @@
 # slopier_1.0
 Density-aware 1D interpolation models that outperform linear regression on structured data.
 
-# Slopier
+# Slopier = Slop Pair
 
 Slopier is a lightweight, deterministic 1D regression/interpolation module designed for **small, structured datasets**.  
 It focuses on **local geometry**, **neighbor spacing**, and **curve continuity** instead of global fitting.
@@ -30,7 +30,7 @@ Slopier works best when:
 
 ## Model
 
-### 2️⃣ SlopePair (Main Model)
+### 1️⃣  Slopier
 - Finds surrounding neighbors
 - **Skips unreliable points** when x-spacing is irregular
 - Uses **local linear interpolation**
